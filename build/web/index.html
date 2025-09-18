@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="PetLar">
+  <meta name="description" content="Flutter Project">
 
-  <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="petlar_flutter_app">
-  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>PetLar</title>
+  <title>petlar_flutter_app</title>
   <link rel="manifest" href="manifest.json">
 
-    <style>
-    /* Tela de loading ocupando toda a tela */
+  <style>
     #loading-screen {
       position: fixed;
       top: 0;
@@ -62,6 +57,7 @@
   </style>
 </head>
 <body>
+  <!-- Tela de carregamento -->
   <div id="loading-screen">
     <img src="favicon.png" alt="logo" width="72">
     <div class="loading-bar">
@@ -72,11 +68,10 @@
   <script src="flutter_bootstrap.js" async></script>
 
   <script>
+    // Quando o Flutter terminar de carregar, remove a tela de loading
     window.addEventListener('flutter-first-frame', function () {
       document.getElementById('loading-screen').style.display = 'none';
     });
   </script>
-
-
 </body>
 </html>
