@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:petlar_landing_page/widgets/navbar.dart';
 import 'package:petlar_landing_page/widgets/header_section.dart';
@@ -13,11 +14,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PETLAR Landing Page',
+      title: 'PETLAR',
       theme: ThemeData(
         primarySwatch: Colors.brown,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: kDebugMode ? true : false,
       home: const LandingPage(),
     );
   }

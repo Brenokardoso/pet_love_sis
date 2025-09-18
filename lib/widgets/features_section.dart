@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:petlar_landing_page/widgets/utils.dart';
 
 class FeaturesSection extends StatelessWidget {
   const FeaturesSection({super.key});
@@ -7,7 +8,7 @@ class FeaturesSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
-      child: Row(
+      child: AdaptableLine(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           _featureItem('assets/icon_leash.png', 'PASSEIOS'),
@@ -20,6 +21,9 @@ class FeaturesSection extends StatelessWidget {
 
   Widget _featureItem(String iconPath, String title) {
     return Column(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         Image.asset(
           iconPath,
@@ -40,4 +44,3 @@ class FeaturesSection extends StatelessWidget {
     );
   }
 }
-

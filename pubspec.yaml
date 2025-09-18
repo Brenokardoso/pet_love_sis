@@ -20,6 +20,9 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+    - assets/img/pet1.jpeg
+    - assets/img/pet2.jpeg
+    - assets/img/pet3.jpeg
   fonts:
     - family: DMSans
       fonts:

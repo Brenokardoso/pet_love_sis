@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:petlar_landing_page/widgets/utils.dart';
 
 class Navbar extends StatelessWidget {
   const Navbar({super.key});
@@ -7,11 +8,11 @@ class Navbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
-      child: Row(
+      child: AdaptableLine(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           // Navigation Links
-          Row(
+          AdaptableLine(
             children: <Widget>[
               _navItem('Início'),
               _navItem('Hospedagem'),
@@ -19,7 +20,7 @@ class Navbar extends StatelessWidget {
               _navItem('Sobre'),
             ],
           ),
-          // Contact Button
+          const SizedBox(height: 10),
           _contactButton(),
         ],
       ),
@@ -33,7 +34,7 @@ class Navbar extends StatelessWidget {
         title,
         style: const TextStyle(
           fontFamily: 'DMSans',
-          color: Color(0xFF3D2C20), // Cor do texto principal
+          color: Color(0xFF3D2C20),
           fontSize: 16,
           fontWeight: FontWeight.w500,
         ),
@@ -45,7 +46,7 @@ class Navbar extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       decoration: BoxDecoration(
-        color: const Color(0xFFA67C52), // Cor do botão
+        color: const Color(0xFFA67C52),
         borderRadius: BorderRadius.circular(5),
       ),
       child: const Text(
@@ -60,4 +61,3 @@ class Navbar extends StatelessWidget {
     );
   }
 }
-
