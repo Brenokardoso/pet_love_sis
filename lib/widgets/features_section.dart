@@ -11,7 +11,8 @@ class FeaturesSection extends StatelessWidget {
       child: AdaptableLine(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          _featureItem('assets/img/passeios_pt.png', 'PASSEIOS'),
+          _featureItem(
+              'assets/img/passeios_pt.png', 'PASSEIOS', "teste de link"),
           const SizedBox(height: 20),
           _featureItem('assets/img/fotos_videos_pt.png', 'FOTOS E VÍDEOS'),
           const SizedBox(height: 20),
@@ -21,17 +22,21 @@ class FeaturesSection extends StatelessWidget {
     );
   }
 
-  Widget _featureItem(String iconPath, String title) {
+  Widget _featureItem(String iconPath, String title, [String? link]) {
     return Flexible(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          Image.asset(
-            iconPath,
-            width: 400,
-            height: 400,
+          GestureDetector(
+            onTap: () => print(link ?? "erro 404"),
+            child: Image.asset(
+              iconPath,
+              width: 400,
+              height: 400,
+              fit: BoxFit.cover,
+            ),
           ),
           const SizedBox(height: 10),
           Text(
