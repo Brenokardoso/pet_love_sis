@@ -14,7 +14,7 @@ class HeaderSection extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(bottom: 30),
             child: Image.asset(
-              'assets/petlar_logo.png',
+              'assets/img/pet2.jpeg',
               width: 150,
               height: 150,
             ),
@@ -84,4 +84,3 @@ class HeaderSection extends StatelessWidget {
     );
   }
 }
-

@@ -11,9 +11,9 @@ class FeaturesSection extends StatelessWidget {
       child: AdaptableLine(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          _featureItem('assets/icon_leash.png', 'PASSEIOS'),
-          _featureItem('assets/icon_camera.png', 'FOTOS E VÍDEOS'),
-          _featureItem('assets/icon_vet.png', 'VETERINÁRIO'),
+          _featureItem('assets/img/pet1.jpeg', 'PASSEIOS'),
+          _featureItem('assets/img/pet2.jpeg', 'FOTOS E VÍDEOS'),
+          _featureItem('assets/img/pet3.jpeg', 'VETERINÁRIO'),
         ],
       ),
     );

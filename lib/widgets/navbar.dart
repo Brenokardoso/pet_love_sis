@@ -35,8 +35,8 @@ class Navbar extends StatelessWidget {
         style: const TextStyle(
           fontFamily: 'DMSans',
           color: Color(0xFF3D2C20),
-          fontSize: 16,
-          fontWeight: FontWeight.w500,
+          fontSize: 18,
+          fontWeight: FontWeight.w800,
         ),
       ),
     );
