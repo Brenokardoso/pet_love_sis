@@ -65,7 +65,7 @@ class HeaderSection extends StatelessWidget {
                   "https://www.instagram.com/pet.lar.hospedagem/?igsh=MWpkdWd6YTBrODRvNA%3D%3D#");
             },
             style: ElevatedButton.styleFrom(
-              backgroundColor: const Color(0xFFA67C52), // Cor do botão
+              backgroundColor: const Color(0xFFA67C52),
               padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 20),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(5),

@@ -34,17 +34,23 @@ class LandingPage extends StatelessWidget {
       backgroundColor: const Color(0xFFFDF8ED),
       body: Container(
         decoration: const BoxDecoration(
-            image: DecorationImage(
-                opacity: .35,
-                fit: BoxFit.fill,
-                filterQuality: FilterQuality.high,
-                image: AssetImage("assets/img/background_paw.png"))),
+          image: DecorationImage(
+            opacity: .35,
+            fit: BoxFit.fill,
+            filterQuality: FilterQuality.high,
+            image: AssetImage("assets/img/background_paw.png"),
+          ),
+        ),
         child: const SingleChildScrollView(
           child: Column(
             children: <Widget>[
               Navbar(),
               HeaderSection(),
               FeaturesSection(),
+              Text(
+                "empresa fictícia",
+                style: TextStyle(fontSize: 12, color: Colors.black),
+              )
             ],
           ),
         ),
