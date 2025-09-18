@@ -5,7 +5,7 @@ class AdaptableLine extends StatelessWidget {
     super.key,
     required this.children,
     this.mainAxisAlignment = MainAxisAlignment.spaceBetween,
-    this.baseWidth = 720,
+    this.baseWidth = 1101,
     this.crossAxisAlignment = CrossAxisAlignment.center,
     this.spacing,
   });

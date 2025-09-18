@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:petlar_landing_page/widgets/utils.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class FeaturesSection extends StatelessWidget {
   const FeaturesSection({super.key});
@@ -11,8 +13,8 @@ class FeaturesSection extends StatelessWidget {
       child: AdaptableLine(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          _featureItem(
-              'assets/img/passeios_pt.png', 'PASSEIOS', "teste de link"),
+          _featureItem('assets/img/passeios_pt.png', 'PASSEIOS',
+              "https://www.instagram.com/pet.lar.hospedagem/?igsh=MWpkdWd6YTBrODRvNA%3D%3D#"),
           const SizedBox(height: 20),
           _featureItem('assets/img/fotos_videos_pt.png', 'FOTOS E VÍDEOS'),
           const SizedBox(height: 20),
@@ -29,13 +31,16 @@ class FeaturesSection extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          GestureDetector(
-            onTap: () => print(link ?? "erro 404"),
-            child: Image.asset(
-              iconPath,
-              width: 400,
-              height: 400,
-              fit: BoxFit.cover,
+          MouseRegion(
+            cursor: SystemMouseCursors.click,
+            child: GestureDetector(
+              onTap: () {},
+              child: Image.asset(
+                iconPath,
+                width: 400,
+                height: 400,
+                fit: BoxFit.cover,
+              ),
             ),
           ),
           const SizedBox(height: 10),

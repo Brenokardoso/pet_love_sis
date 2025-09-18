@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class HeaderSection extends StatelessWidget {
   const HeaderSection({super.key});
@@ -60,7 +61,8 @@ class HeaderSection extends StatelessWidget {
           // Action Button
           ElevatedButton(
             onPressed: () {
-              // Ação do botão
+              launchUrlString(
+                  "https://www.instagram.com/pet.lar.hospedagem/?igsh=MWpkdWd6YTBrODRvNA%3D%3D#");
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: const Color(0xFFA67C52), // Cor do botão
