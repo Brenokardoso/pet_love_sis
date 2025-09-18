@@ -11,36 +11,40 @@ class FeaturesSection extends StatelessWidget {
       child: AdaptableLine(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          _featureItem('assets/img/pet1.jpeg', 'PASSEIOS'),
-          _featureItem('assets/img/pet2.jpeg', 'FOTOS E VÍDEOS'),
-          _featureItem('assets/img/pet3.jpeg', 'VETERINÁRIO'),
+          _featureItem('assets/img/passeios_pt.png', 'PASSEIOS'),
+          const SizedBox(height: 20),
+          _featureItem('assets/img/fotos_videos_pt.png', 'FOTOS E VÍDEOS'),
+          const SizedBox(height: 20),
+          _featureItem('assets/img/veterinario_pte.png', 'VETERINÁRIO'),
         ],
       ),
     );
   }
 
   Widget _featureItem(String iconPath, String title) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: <Widget>[
-        Image.asset(
-          iconPath,
-          width: 60,
-          height: 60,
-        ),
-        const SizedBox(height: 10),
-        Text(
-          title,
-          style: const TextStyle(
-            fontFamily: 'DMSans',
-            color: Color(0xFF3D2C20),
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
+    return Flexible(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Image.asset(
+            iconPath,
+            width: 400,
+            height: 400,
           ),
-        ),
-      ],
+          const SizedBox(height: 10),
+          Text(
+            title,
+            style: const TextStyle(
+              fontFamily: 'DMSans',
+              color: Color(0xFF3D2C20),
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

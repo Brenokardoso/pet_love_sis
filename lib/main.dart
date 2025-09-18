@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:petlar_landing_page/widgets/navbar.dart';
 import 'package:petlar_landing_page/widgets/header_section.dart';

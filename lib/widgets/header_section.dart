@@ -14,9 +14,9 @@ class HeaderSection extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(bottom: 30),
             child: Image.asset(
-              'assets/img/pet2.jpeg',
-              width: 150,
-              height: 150,
+              'assets/img/app_entry_pt.png',
+              width: 250,
+              height: 200,
             ),
           ),
           // Title
