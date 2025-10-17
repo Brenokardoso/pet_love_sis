@@ -3,8 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"faviconico.ico": "5394b0ad7b1836fd4ecb333455b918be",
-"assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
+const RESOURCES = {"assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/AssetManifest.bin.json": "e1b0de287ddb7ab541b5a2de35b89e5c",
 "assets/assets/img/pet_le_entrada.jpeg": "0486c0472ad18af8acfdf40fb6bba53e",
 "assets/assets/img/passeios_pt.png": "5d1e883431dc85b5e574793aac095f9b",
@@ -44,7 +43,7 @@ const RESOURCES = {"faviconico.ico": "5394b0ad7b1836fd4ecb333455b918be",
 "canvaskit/skwasm.js": "f2ad9363618c5f62e813740099a80e63",
 "canvaskit/skwasm.js.symbols": "80806576fa1056b43dd6d0b445b4b6f7",
 "canvaskit/canvaskit.js.symbols": "68eb703b9a609baef8ee0e413b442f33",
-"flutter_bootstrap.js": "354e667eb04947ab50e0528a506bc045",
+"flutter_bootstrap.js": "eb9ef7aac560a78b215dfadd889087de",
 "flutter.js": "76f08d47ff9f5715220992f993002504",
 "version.json": "41a60c93d7e2acb34c115e5a19c0006a",
 "manifest.json": "8548c5f327ec60cc5ed6cce99f04d270",
