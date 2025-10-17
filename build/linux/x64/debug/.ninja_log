@@ -1,32 +1,59 @@
 # ninja log v5
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	76a0ec5baf006f4
-0	6073	0	flutter/_phony_	76a0ec5baf006f4
-0	6073	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/build/linux/x64/debug/flutter/_phony_	76a0ec5baf006f4
-6074	6314	1758221798937273038	CMakeFiles/petlar_flutter_app.dir/main.cc.o	4f3765bd448ec4cd
-6074	6333	1758221798957273310	CMakeFiles/petlar_flutter_app.dir/flutter/generated_plugin_registrant.cc.o	71bfe8b2022aa0d7
-6074	6346	1758221798969273474	plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o	7e1f50bbdcf3fbbe
-6074	6355	1758221798978273596	CMakeFiles/petlar_flutter_app.dir/my_application.cc.o	df8b9f788db66aca
-6074	6360	1758221798982273651	plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o	54ca7542b7279d83
-6360	6423	1758221799048274548	plugins/url_launcher_linux/liburl_launcher_linux_plugin.so	8bfaeae2088bf2c9
-6423	6505	1758221799129275650	intermediates_do_not_run/petlar_flutter_app	f4dc0afc24397201
-6505	6572	0	CMakeFiles/install.util	f0adbdee6b96df04
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/build/linux/x64/debug/flutter/_phony_	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	76a0ec5baf006f4
+2917	3350	1760722438012472189	CMakeFiles/petlar_flutter_app.dir/main.cc.o	4f3765bd448ec4cd
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	76a0ec5baf006f4
+3176	3458	1760725763135987981	CMakeFiles/petlar_flutter_app.dir/my_application.cc.o	df8b9f788db66aca
+2918	3372	1760722438036493810	plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o	54ca7542b7279d83
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	76a0ec5baf006f4
+2	3176	0	flutter/_phony_	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	76a0ec5baf006f4
+3459	3543	1760725763221441628	intermediates_do_not_run/petlar_flutter_app	92f03c38e2c607c6
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	76a0ec5baf006f4
+3543	3627	0	CMakeFiles/install.util	f0adbdee6b96df04
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	76a0ec5baf006f4
+3373	3462	1760722438127162758	plugins/url_launcher_linux/liburl_launcher_linux_plugin.so	5f0bcf799dafd81c
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	76a0ec5baf006f4
+3177	3451	1760725763126925074	CMakeFiles/petlar_flutter_app.dir/flutter/generated_plugin_registrant.cc.o	71bfe8b2022aa0d7
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	76a0ec5baf006f4
+2918	3359	1760722438023472311	plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o	7e1f50bbdcf3fbbe
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	76a0ec5baf006f4
+2	3176	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/libflutter_linux_gtk.so	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_engine.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_value.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/fl_view.h	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	76a0ec5baf006f4
+2	3177	0	flutter/_phony_	76a0ec5baf006f4
+2	3177	0	/home/brenoads/Área de Trabalho/Projetos Pessoais/petlar_flutter_app/build/linux/x64/debug/flutter/_phony_	76a0ec5baf006f4
+3178	3377	1760726688002142447	CMakeFiles/petlar_flutter_app.dir/flutter/generated_plugin_registrant.cc.o	71bfe8b2022aa0d7
+3178	3445	1760726688070674611	CMakeFiles/petlar_flutter_app.dir/my_application.cc.o	df8b9f788db66aca
+3446	3555	1760726688182642234	intermediates_do_not_run/petlar_flutter_app	92f03c38e2c607c6
+3555	3621	0	CMakeFiles/install.util	f0adbdee6b96df04

@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:petlar_landing_page/pages/cover_page.dart';
+import 'package:petlar_landing_page/pages/hospedagem.dart';
+import 'package:petlar_landing_page/pages/service_definitions_page.dart';
 import 'package:petlar_landing_page/widgets/navbar.dart';
 import 'package:petlar_landing_page/widgets/header_section.dart';
 import 'package:petlar_landing_page/widgets/features_section.dart';
@@ -20,13 +23,18 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       // debugShowCheckedModeBanner: kDebugMode ? true : false,
-      home: const LandingPage(),
+      routes: {
+        "/": (context) => const CoverPage(),
+        "/home": (context) => const HomePage(),
+        "/hospedagem": (context) => const HospedagemPage(),
+        "/service": (context) => const ServiceDefinitionsPage(),
+      },
     );
   }
 }
 
-class LandingPage extends StatelessWidget {
-  const LandingPage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +58,7 @@ class LandingPage extends StatelessWidget {
               Text(
                 "empresa fictícia",
                 style: TextStyle(fontSize: 12, color: Colors.black),
-              )
+              ),
             ],
           ),
         ),
