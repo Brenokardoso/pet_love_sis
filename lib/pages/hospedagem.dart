@@ -30,32 +30,23 @@ class HospedagemPage extends StatelessWidget {
                 style: TextStyle(fontSize: 16, color: Color(0xFF4A2C1D)),
               ),
               const SizedBox(height: 40),
-
-              // HOSPEDAGEM
               _buildSection(
                 title: 'Hospedagem',
                 description:
                     'Ambiente seguro, climatizado e com atenção individualizada.',
               ),
-
-              // ACOMPANHAMENTO VETERINÁRIO
               _buildSection(
                 title: 'Acompanhamento Veterinário',
                 description:
                     'Supervisão e atendimento rápido quando necessário.',
               ),
-
-              // FOTO (EXTERIOR)
               const SizedBox(height: 20),
-              Container(
-                height: 200,
-                width: double.infinity,
-                color: Colors.brown.shade100,
+              SizedBox(
                 child: Image.asset(
-                  "pet_le_entrada.jpeg",
+                  "assets/img/pet_le_entrada.jpeg",
                   width: 400,
                   height: 400,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.fill,
                 ),
               ),
               const SizedBox(height: 40),
@@ -64,60 +55,43 @@ class HospedagemPage extends StatelessWidget {
                 description:
                     'Banho seguro com produtos hipoalergênicos (serviço a combinar).',
               ),
-
-              // FOTO (BANHEIRA)
               const SizedBox(height: 20),
-              Container(
-                height: 200,
-                width: double.infinity,
-                color: Colors.brown.shade100,
+              SizedBox(
                 child: Image.asset(
-                  "pet_love_cuidado.jpeg",
+                  "assets/img/pet_love_cuidado.jpeg",
                   width: 400,
                   height: 400,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.fill,
                 ),
               ),
               const SizedBox(height: 40),
-
-              // RECREAÇÃO E PASSEIOS
               _buildSection(
                 title: 'Recreação e Passeios',
                 description:
                     'Atividades supervisionadas para manter a saúde e o bom humor.',
               ),
-
-              // VISITA DE ADAPTAÇÃO
               _buildSection(
                 title: 'Visita de Adaptação',
                 description:
                     'Primeira visita gratuita para o pet conhecer o ambiente e os cuidadores.',
               ),
-
-              // COMUNICAÇÃO
               _buildSection(
                 title: 'Comunicação',
                 description:
                     'Relatórios diários via WhatsApp para você acompanhar tudo!',
               ),
-
-              // FOTO (QUINTAL)
               const SizedBox(height: 20),
-              Container(
-                height: 200,
-                width: double.infinity,
-                color: Colors.brown.shade100,
+              SizedBox(
                 child: Center(
                   child: Image.asset(
-                    "saida.jpeg",
+                    "assets/img/saida.jpeg",
                     width: 400,
                     height: 400,
-                    fit: BoxFit.cover,
+                    fit: BoxFit.fill,
                   ),
                 ),
               ),
               const SizedBox(height: 40),
-
               const Text(
                 'Nosso propósito é Cuidar com Amor 💛',
                 style: TextStyle(
