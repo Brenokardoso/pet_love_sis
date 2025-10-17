@@ -43,7 +43,7 @@ const RESOURCES = {"assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8
 "canvaskit/skwasm.js": "f2ad9363618c5f62e813740099a80e63",
 "canvaskit/skwasm.js.symbols": "80806576fa1056b43dd6d0b445b4b6f7",
 "canvaskit/canvaskit.js.symbols": "68eb703b9a609baef8ee0e413b442f33",
-"flutter_bootstrap.js": "eb9ef7aac560a78b215dfadd889087de",
+"flutter_bootstrap.js": "7a44b837daaebf7e198102250053bfde",
 "flutter.js": "76f08d47ff9f5715220992f993002504",
 "version.json": "41a60c93d7e2acb34c115e5a19c0006a",
 "manifest.json": "8548c5f327ec60cc5ed6cce99f04d270",
