@@ -11,6 +11,14 @@ _flutter.buildConfig = {"engineRevision":"f73bfc4522dd0bc87bbcdb4bb3088082755c5e
 
 _flutter.loader.load({
   serviceWorkerSettings: {
+<<<<<<< HEAD:flutter_bootstrap.js
     serviceWorkerVersion: "3173523826"
+=======
+<<<<<<<< HEAD:build/web/flutter_bootstrap.js
+    serviceWorkerVersion: "1563608864"
+========
+    serviceWorkerVersion: "638303246"
+>>>>>>>> bccg:flutter_bootstrap.js
+>>>>>>> bccg:web/flutter_bootstrap.js
   }
 });
