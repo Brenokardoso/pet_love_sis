@@ -17,7 +17,7 @@ class Navbar extends StatelessWidget {
             children: <Widget>[
               _navItem(context, 'Início'),
               _navItem(context, 'Hospedagem', "/hospedagem"),
-              _navItem(context, 'Creche'),
+              _navItem(context, 'Plano', "/plano"),
               _navItem(context, 'Sobre'),
             ],
           ),

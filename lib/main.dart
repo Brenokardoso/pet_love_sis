@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:petlar_landing_page/pages/cover_page.dart';
 import 'package:petlar_landing_page/pages/hospedagem.dart';
-import 'package:petlar_landing_page/pages/service_definitions_page.dart';
+import 'package:petlar_landing_page/pages/planos_de_servico_page.dart';
 import 'package:petlar_landing_page/widgets/navbar.dart';
 import 'package:petlar_landing_page/widgets/header_section.dart';
 import 'package:petlar_landing_page/widgets/features_section.dart';
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         "/": (context) => const CoverPage(),
         "/home": (context) => const HomePage(),
         "/hospedagem": (context) => const HospedagemPage(),
-        "/service": (context) => const ServiceDefinitionsPage(),
+        "/plano": (context) => const TabelaBeneficios(),
       },
     );
   }
